@@ -1,6 +1,6 @@
 GIT
   remote: http://github.com/coinfund/coinfund-models
-  revision: 9a464403f0c0e48218b3b83f608df8fcdacc8fbb
+  revision: 3aad38c1ad4868a895f78ead8617935be60ae013
   branch: master
   specs:
     coinfund (0.1.0)
