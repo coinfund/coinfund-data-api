@@ -1,10 +1,11 @@
 GIT
   remote: http://github.com/coinfund/coinfund-models
-  revision: 3461cc49bd7daca702b3127043920ac903318f7e
+  revision: 27188609d0e387620f18a7f4b4c9ebb3868c543c
   branch: master
   specs:
     coinfund (0.1.0)
       bcrypt (>= 3.1.7)
+      pg
       rails (>= 5.0.0.beta3, < 5.1)
 
 GEM
