@@ -1,7 +1,7 @@
 GIT
   remote: http://github.com/coinfund/coinfund-models
   revision: ae4d3db45dce429563de2fd6368f7070eff8bf1c
-  branch: master
+  tag: v0.1.0
   specs:
     coinfund (0.1.0)
       bcrypt (>= 3.1.7)
