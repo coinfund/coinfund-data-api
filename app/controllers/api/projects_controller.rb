@@ -3,7 +3,10 @@ class Api::ProjectsController < ApplicationController
   # before_action :get_resource, only: [:show]
 
   def index
-    @projects = Coinfund::Project.all
+    @projects = Coinfund::Project
+                  .joins(:sector)
+                  .includes(:sector)
+                  .all
   end
 
   def show
