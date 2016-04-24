@@ -16,9 +16,10 @@ ActiveRecord::Schema.define(version: 20160421051607) do
   create_table "coinfund_projects", force: :cascade do |t|
     t.string   "name"
     t.string   "homepage"
+    t.integer  "status",     default: 0
     t.integer  "sector_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
   add_index "coinfund_projects", ["sector_id"], name: "index_coinfund_projects_on_sector_id"
