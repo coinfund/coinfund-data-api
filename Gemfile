@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
-gem 'coinfund', git: 'http://github.com/coinfund/coinfund-models', tag: 'v0.1.1'
+gem 'coinfund', git: 'http://github.com/coinfund/coinfund-models', tag: 'v0.1.2-beta1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
