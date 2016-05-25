@@ -21,8 +21,6 @@ ActiveRecord::Schema.define(version: 20160421051607) do
     t.string   "homepage"
     t.integer  "status",     default: 0
     t.boolean  "watching",   default: false
-    t.boolean  "engagement", default: false
-    t.boolean  "long",       default: false
     t.integer  "sector_id"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
