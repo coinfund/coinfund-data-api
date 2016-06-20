@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'coinfund.io', '2d30e996b20f04d22c6778ab5e26bf0c.coinfund.io', 'legacy.coinfund.io'
+    origins 'coinfund.io', '2d30e996b20f04d22c6778ab5e26bf0c.coinfund.io', 'legacy.coinfund.io', 'localhost'
 
     resource '*',
       headers: :any,
